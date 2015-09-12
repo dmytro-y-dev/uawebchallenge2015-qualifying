@@ -1,0 +1,13 @@
+ul.collage {
+	width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.collage li {
+	padding: 0;
+	margin: 0 0 1px 1px;
+	border: 0;
+	float: left;
+}
