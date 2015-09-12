@@ -3,9 +3,9 @@
 require_once 'collage.inc.php';
 
 $config = array(
-	'userId' 												 => 'aldanisdarkwood',
-	'avatarsMaximumCount' 					 => 10, // if 0, then all from the wall
-	'avatarsSizeReflectsTweetsCount' => false
+	'userId' 												 => $GET['login'],
+	'avatarsMaximumCount' 					 => $GET['size'],
+	'avatarsSizeReflectsTweetsCount' => $GET['proportion']
 );
 
 $users = GetUsersFromTwitterWall($config['userId'], $config['avatarsMaximumCount']);

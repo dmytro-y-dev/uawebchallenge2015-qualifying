@@ -12,3 +12,7 @@ ul.collage li {
 	float: left;
 }
 
+ul.collage img {
+	width: 100%;
+}
+
