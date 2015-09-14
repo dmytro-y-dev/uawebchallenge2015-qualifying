@@ -95,7 +95,7 @@ if ($collageURI === FALSE) {
 	}
 	
 	if ($collage) {
-		$collageURI = AddImageToCache($collage, $config['userName'], $config['avatarsSizeReflectsTweetsCount'], $config['avatarsSizeReflectsTweetsCount'], $config['avatarsMaximumCount']);
+		$collageURI = AddImageToCache($collage, $config['userName'], $config['avatarsSizeReflectsTweetsCount'], $config['avatarsMaximumCount']);
 	}
 } else {
 	$collage = @imagecreatefrompng($collageURI);
