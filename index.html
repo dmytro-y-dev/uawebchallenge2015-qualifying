@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Twitter Collage Generator</title>
+		
+		<link rel="stylesheet" type="text/css" href="style/page.css">
+	</head>
+	<body>
+		<h1>Twitter Collage Generator</h1>
+		<p>Fields with (*) are required.</p>
+		
+		<form action="collage.php" method="GET">
+			<div class="control">
+				<label for="login">(*) Login:</label>
+				<input type="edit" name="login" value="">
+			</div>
+			
+			<div class="control">
+				<label for="width">(*) Width:</label>
+				<input type="edit" name="width" value="480">
+			</div>
+			
+			<div class="control">
+				<label for="height">(*) Height:</label>
+				<input type="edit" name="height" value="480">
+			</div>
+			
+			<div class="control">
+				<label for="avatars_count">Avatars maximum count (0 for unlimited):</label>
+				<input type="edit" name="avatars_count" value="0">
+			</div>
+			
+			<div class="control">
+				<label for="proportionate">Avatars are proportionate to tweets count</label>
+				<input type="checkbox" name="proportionate" value="true">
+			</div>
+			
+			<div class="control">
+				<input type="submit" value="Generate">
+			</div>
+		</form>
+	</body>
+</html>

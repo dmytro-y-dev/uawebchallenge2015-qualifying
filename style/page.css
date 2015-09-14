@@ -1,9 +1,17 @@
 html {
 	width: 100%;
+	line-height: 1.5;
+	font-size: 12px;
+	font-family: "Tahoma";
 }
 
 body {
 	width: 920px;
 	margin: 0 auto;
 	padding: 0;
+}
+
+div.control {
+	padding: 5px 0;
+	margin: 0;
 }
