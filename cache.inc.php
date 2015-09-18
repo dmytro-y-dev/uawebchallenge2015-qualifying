@@ -6,6 +6,7 @@
  * @param image GD PNG image resource.
  * @param userName name of user who's friends are on collage.
  * @param proportionate use false if collage is simple, and true if avatars in collage have proportionate size.
+ * @param avatarsMaximumCount maximum count of avatars to process.
  *
  * @return URI of image in cache.
  */
@@ -29,6 +30,7 @@ function AddImageToCache($image, $userName, $proportionate, $avatarsMaximumCount
  * @param width width of collage.
  * @param height height of collage.
  * @param proportionate use false if collage is simple, and true if avatars in collage have proportionate size.
+ * @param avatarsMaximumCount maximum count of avatars to process.
  *
  * @return URI of image in cache if successful, or FALSE otherwise.
  */
